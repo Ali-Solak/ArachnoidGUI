@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="242.0" y="319.0">main.RiesenSpinne</node>
+    <node x="0.0" y="738.0">main.Inventar</node>
+    <node x="0.0" y="319.0">main.Held</node>
+    <node x="142.0" y="457.0">main.Item</node>
+    <node x="523.0" y="0.0">main.KommandozeilenMenues</node>
+    <node x="311.0" y="738.0">main.LogBuch</node>
+    <node x="0.0" y="622.0">main.Waffe</node>
+    <node x="124.5" y="0.0">main.Charakter</node>
+    <node x="284.0" y="622.0">main.Medipack</node>
+    <node x="593.0" y="457.0">main.Raum</node>
+    <node x="577.0" y="738.0">main.Event</node>
+    <node x="766.0" y="0.0">main.ComputerHal</node>
+    <node x="0.0" y="920.0">main.Spiel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="main.Held" target="main.Charakter">
+      <point x="0.0" y="-46.5" />
+      <point x="111.0" y="294.0" />
+      <point x="180.0" y="294.0" />
+      <point x="-55.5" y="134.5" />
+    </edge>
+    <edge source="main.RiesenSpinne" target="main.Charakter">
+      <point x="0.0" y="-46.5" />
+      <point x="360.0" y="294.0" />
+      <point x="291.0" y="294.0" />
+      <point x="55.5" y="134.5" />
+    </edge>
+    <edge source="main.Waffe" target="main.Item">
+      <point x="0.0" y="-35.5" />
+      <point x="132.0" y="597.0" />
+      <point x="208.0" y="597.0" />
+      <point x="-66.0" y="57.5" />
+    </edge>
+    <edge source="main.Medipack" target="main.Item">
+      <point x="0.0" y="-35.5" />
+      <point x="416.0" y="597.0" />
+      <point x="340.0" y="597.0" />
+      <point x="66.0" y="57.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.506572295247725" x="521.5" y="484.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
